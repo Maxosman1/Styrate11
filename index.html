@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to STYRATE</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">STYRATE</div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="contests.html">Contests</a>
+        <a href="rewards.html">Rewards</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html">Login</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="welcome">
+        <h1>Welcome to STYRATE</h1>
+        <p>Join exciting video contests and earn rewards!</p>
+        <div class="user-points">Your Points: <span id="points">0</span></div>
+      </section>
+
+      <section id="cards">
+        <a href="contests.html" class="card">
+          <object
+            class="card-icon"
+            data="./icons/contest.svg"
+            type="image/svg+xml"
+            aria-label="Contest Icon"
+          ></object>
+          <h2 class="card-title">Contests</h2>
+          <p class="card-content">Join the Conversation.</p>
+        </a>
+        <a href="rewards.html" class="card">
+          <object
+            class="card-icon"
+            data="./icons/reward.svg"
+            type="image/svg+xml"
+            aria-label="Rewards Icon"
+          ></object>
+          <!-- Assuming you have a rewards icon -->
+          <h2 class="card-title">Rewards</h2>
+          <p class="card-content">Discover your rewards.</p>
+        </a>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Contact us at
+        <a href="mailto:contact@styrate.com">contact@styrate.com</a>
+      </p>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
